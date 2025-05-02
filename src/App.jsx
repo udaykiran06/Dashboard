@@ -7,7 +7,9 @@ import PlacementChart from './components/PlacementChart';
 import IndustryConnects from './components/IndustryConnects';
 import Assessments from './components/Assessments';
 import Placements from './components/Placements';
-import Assets from './components/Assets'
+import Assets from './components/Assets';
+import Staff from './components/Staff';
+import VendorContracts from './components/VendorContracts';
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
             <Route path="/Assessments" element={<Assessments/>}/>
             <Route path="/Placements" element={<Placements/>}/>
             <Route path="/Assets" element={<Assets/>}/>
+            <Route path="/Staff" element={<Staff/>}/>
+            <Route path="/VendorContracts" element={<VendorContracts/>}/>
 
           </Routes>
         </div>
