@@ -1,208 +1,118 @@
-/* .metrics1 {
+.dashboard-header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
   }
   
-  .metric1 {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    flex: 1;
-    margin-right: 50px;
+  .add-contract-button {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 65px;
   }
   
-  .metric1 h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
+  .add-contract-button:hover {
+    background-color: #3A5DFF;
   }
   
-  .metric1 p {
-    font-size: 15px;
-    font-weight: bold;
-  }
-  
-  .charts1 {
+  .filter-bar {
     display: flex;
-    justify-content: space-between;
-    width: 97.75%;
+    gap: 30px;
+    align-items: flex-start;
+    font-size: 20px;
   }
   
-  .chart1 {
-    background-color: #fff;
-    padding: 20px;
-    padding-top: 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    flex: 1;
-    margin-right: 20px;
-    height: 90%;
-  }
-  
-  .chart1 h3 {
-    font-size: 18px;
-    margin-bottom: 0;
-    padding-left: 5px;
-  }
-  
-  .table-recruiters-container {
+  .filter-item {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
   }
   
-  .table-container {
-    width: 80%;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin-right: 48px;
-    margin-bottom: 0;
+  .filter-item label {
+    margin-bottom: 5px;
+    font-weight: 600;
   }
   
-  .table-container table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .table-container th, .table-container td {
+  .filter-item select,
+  .filter-item input {
+    padding: 8px 10px;
     border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
+    border-radius: 4px;
+    min-width: 375px;
   }
   
-  .recruiters-container {
-    width: 50%;
-    background-color: #fff;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin-right: 30px;
-  }
-  
-  .recruiters-container ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .recruiters-container li {
-    margin-bottom: 10px;
-  }
-   */
-
-   .dashboard {
-    padding: 20px;
-    max-height: 100vh;
-    overflow-y: auto;
-  }
-  
-  .metrics1 {
+  .metrics5 {
     display: flex;
     margin-bottom: 20px;
   }
   
-  .metric1 {
+  .metric5 {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     flex: 1;
-    margin-right: 50px;
+    margin-right: 65px;
   }
   
-  .metric1 h3 {
+  .metric5 h3 {
     font-size: 18px;
     margin-bottom: 10px;
   }
   
-  .metric1 p {
+  .metric5 p {
     font-size: 15px;
     font-weight: bold;
   }
-  
-  .charts1 {
-    display: flex;
-    justify-content: space-between;
-    width: 97.75%;
-  }
-  
-  .chart1 {
-    background-color: #fff;
-    padding: 20px;
-    padding-top: 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    flex: 1;
-    margin-right: 20px;
-    height: 90%;
-  }
-  
-  .chart1 h3 {
-    font-size: 18px;
-    margin-bottom: 0;
-    padding-left: 5px;
-  }
-  
-  .table-recruiters-container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    margin-top: 10px;
-  }
-  
-  .table-container {
-    width: 80%;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin-right: 48px;
-    
-  }
 
-  .table-wrapper {
-    max-height: 300px; /* Adjust the height as needed */
-    overflow-y: auto;
+  .contracts-table-container {
+    margin: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 0;
+    margin-right: 65px;
   }
   
-  .table-container table {
+  .contracts-table {
     width: 100%;
     border-collapse: collapse;
+    font-size: 14px;
   }
   
-  .table-container th {
-    position: sticky;
-    top: 0;
+  .contracts-table th, .contracts-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .contracts-table th {
     background-color: #f5f5f5;
-    /* border-top: 1px solid #ccc; */
-    border-bottom: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
+  }
+  
+  .status-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
     font-weight: bold;
-    z-index: 1; /* Ensure it stays above other content */
+    font-size: 12px;
   }
   
-  .table-container td {
-    border-bottom: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
+  .status-badge.open {
+    background-color: #e0f7e9; /* Light green, similar to the image */
+    color: #0a8a3e; /* Dark green text */
   }
   
-  .recruiters-container {
-    width: 15%;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin-right: 20px;
+  .status-badge.interview {
+    background-color: #d6f0fa; /* Light blue, similar to the image */
+    color: #0066cc; /* Darker blue text */
   }
   
-  .recruiters-container ul {
-    list-style-type: none;
-    padding: 0;
+  .status-badge.offer {
+    background-color: #c3e6cb; /* Slightly darker green, similar to the image */
+    color: #0a8a3e; /* Dark green text */
   }
-  
-  .recruiters-container li {
-    margin-bottom: 10px;
-  }
-  
