@@ -1,0 +1,208 @@
+/* .metrics1 {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .metric1 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  .metric1 h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .metric1 p {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .charts1 {
+    display: flex;
+    justify-content: space-between;
+    width: 97.75%;
+  }
+  
+  .chart1 {
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 20px;
+    height: 90%;
+  }
+  
+  .chart1 h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-left: 5px;
+  }
+  
+  .table-recruiters-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .table-container {
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-right: 48px;
+    margin-bottom: 0;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th, .table-container td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .recruiters-container {
+    width: 50%;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-right: 30px;
+  }
+  
+  .recruiters-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recruiters-container li {
+    margin-bottom: 10px;
+  }
+   */
+
+   .dashboard {
+    padding: 20px;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .metrics1 {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .metric1 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  .metric1 h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .metric1 p {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .charts1 {
+    display: flex;
+    justify-content: space-between;
+    width: 97.75%;
+  }
+  
+  .chart1 {
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 20px;
+    height: 90%;
+  }
+  
+  .chart1 h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-left: 5px;
+  }
+  
+  .table-recruiters-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .table-container {
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-right: 48px;
+    
+  }
+
+  .table-wrapper {
+    max-height: 300px; /* Adjust the height as needed */
+    overflow-y: auto;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th {
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5;
+    /* border-top: 1px solid #ccc; */
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1; /* Ensure it stays above other content */
+  }
+  
+  .table-container td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .recruiters-container {
+    width: 15%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .recruiters-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recruiters-container li {
+    margin-bottom: 10px;
+  }
+  

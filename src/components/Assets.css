@@ -1,0 +1,204 @@
+.dashboard {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  margin-top: 20px;
+}
+
+.dropdowns {
+  display: flex;
+  gap: 10px;
+  margin-right: 170px;
+  margin-top: 20px;
+  
+}
+
+.dropdown {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width:170px;
+}
+
+.metrics3 {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.metric3 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+  margin-right: 20px;
+  padding: 15px;
+  color: #fff;
+}
+
+.metric3 h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.metric3 p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.add-button {
+  background-color:white;
+  color:black;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.main-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 90%;
+}
+
+.table-container1 {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  width: 48%;
+}
+
+.table-wrapper1 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-wrapper1 h3 {
+  margin-top: 0;
+}
+
+.table-wrapper1 th,
+.table-wrapper1 td {
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+  text-align: left;
+  font-size: 13px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.table-wrapper1 th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.table-wrapper1 tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-wrapper1 tr:hover {
+  background-color: #f1f1f1;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+  padding-right: 20px;
+  margin-right: 40px;
+}
+
+.chart-container,
+.additional-container {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  width: 100%; /* Ensure both containers have the same width */
+}
+
+.chart-container h3,
+.additional-container h3 {
+  font-size: 16px;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.chart-wrapper {
+  width: 100%;
+  height: 200px; /* Set the desired height for the chart */
+  position: relative;
+}
+
+.additional-container {
+  margin-right: 100px;
+}
+
+.additional-container h3 {
+  color: black;
+}
+
+.table-wrapper2 {
+  margin-top: 10px;
+}
+
+.table-wrapper2 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-wrapper2 th,
+.table-wrapper2 td {
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+  text-align: left;
+  font-size: 13px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.table-wrapper2 th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.table-wrapper2 tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-wrapper2 tr:hover {
+  background-color: #f1f1f1;
+}

@@ -1,0 +1,215 @@
+/* .dashboard {
+    padding: 20px;
+    background-color: #f8fafc;
+    min-height: 100vh;
+    margin-left: 255px;
+    width: 100%;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .user-profile img {
+    border-radius: 50%;
+  }
+  
+  .metrics {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .metric {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .metric h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .metric p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .chart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .chart h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .quick-link {
+    background-color: #fff;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quick-link:hover {
+    background-color: #f0f4ff;
+  }
+  
+  .quick-link svg {
+    font-size: 24px;
+    margin-bottom: 10px;
+  } */
+
+
+h1 {
+    font-size: 30px;
+}
+.dashboard {
+    margin-left: 250px;
+    width: calc(100vw - 250px);
+    height: 100vh;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #f8fafc;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.metrics {
+    display: flex;
+    margin-bottom: 20px;
+    /* width: 97.2%; */
+  }
+  
+  .metricdash {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  .metricdash h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .metricdash p {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 20px; */
+    width: 98%;
+}
+
+.chart {
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 20px;
+    /* margin-bottom: 0;
+    padding-left: 0; */
+    height: 90%;
+}
+
+.chart h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-left: 5px;
+}
+
+.quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* justify-content: center; */
+    margin-top: 20px;
+}
+
+.quick-link {
+    background-color: #fff;
+    width: 94.5px;
+    height: 95px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    transition: background 0.2s ease, transform 0.2s ease;
+    margin-top: 0;
+}
+
+.recharts-tooltip-label {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+
+.quick-link:hover {
+    background-color: #f0f4ff;
+    transform: scale(1.05);
+}
+
+.quick-link svg {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #1e293b;
+}
