@@ -86,7 +86,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebar-header">
-        <img src="/logo1.jpg" alt="VidyaDristi Logo" className="sidebar-logo" />
+        <img src="logo1.jpg" alt="VidyaDristi Logo" className="sidebar-logo" />
         <span className="app-name">VidyaDristi</span>
       </div>
       <ul>
