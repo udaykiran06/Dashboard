@@ -69,12 +69,12 @@ const menuItems = [
   { label: 'Placements', icon: <FaBriefcase />, path: '/placements' },
   { label: 'Assets', icon: <FaLaptop />, path: '/Assets' },
   { label: 'Assessments', icon: <FaFileAlt />, path: '/assessments' },
-  // { label: 'Daily Practice & Assessments', icon: <FaClipboardCheck />, path: '/practice-assessments' },
+  { label: 'Daily Practice & Assessments', icon: <FaClipboardCheck />, path: '/DailyPractice' },
   { label: 'Staff Recruitment', icon: <FaUserTie />, path: '/Staff' },
   { label: 'Industry Connects', icon: <FaIndustry />, path: '/IndustryConnects' },
   // { label: 'HRMS', icon: <FaUsers />, path: '/hrms' },
   { label: 'Vendor Contacts', icon: <FaPhone />, path: '/VendorContracts' },
-  // { label: 'Reports', icon: <FaClipboardList />, path: '/reports' },
+  { label: 'Reports', icon: <FaClipboardList />, path: '/Reports' },
 //   { label: 'Notifications', icon: <FaBell />, path: '/notifications' },
 //   { label: 'Profile', icon: <FaUserCircle />, path: '/profile' },
 //   { label: 'Settings', icon: <FaCog />, path: '/settings' },
@@ -87,7 +87,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="sidebar-header">
         <img src="logo1.jpg" alt="VidyaDristi Logo" className="sidebar-logo" />
-        <span className="app-name">VidyaDristi</span>
+        <span className="app-name">  VidyaDristi</span>
       </div>
       <ul>
         {menuItems.map((item, index) => {

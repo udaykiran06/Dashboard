@@ -61,7 +61,7 @@ const Staff = () => {
   return (
     <div className="dashboard">
       <header className="dashboard-header">
-        <h1>Vendor Contracts Overview</h1>
+        <h1>Staff Recruitment</h1>
         <button className="add-contract-button">Post Job</button>
       </header>
 

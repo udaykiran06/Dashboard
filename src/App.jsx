@@ -10,6 +10,8 @@ import Placements from './components/Placements';
 import Assets from './components/Assets';
 import Staff from './components/Staff';
 import VendorContracts from './components/VendorContracts';
+import Reports from './components/Reports';
+import DailyPractice from './components/DailyPractice'
 
 const App = () => {
   return (
@@ -29,7 +31,8 @@ const App = () => {
             <Route path="/Assets" element={<Assets/>}/>
             <Route path="/Staff" element={<Staff/>}/>
             <Route path="/VendorContracts" element={<VendorContracts/>}/>
-
+            <Route path="/Reports" element={<Reports/>}/>
+            <Route path="/DailyPractice" element={<DailyPractice/>}/>
           </Routes>
         </div>
       </div>

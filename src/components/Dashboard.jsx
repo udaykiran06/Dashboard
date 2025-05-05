@@ -139,10 +139,10 @@ const Dashboard = () => {
           <FaChartBar />
           <span>Dashboard</span>
         </a>
-        {/* <a href="/admissions" className="quick-link">
+        <a href="/admissions" className="quick-link">
           <FaUserGraduate />
           <span>Admissions</span>
-        </a> */}
+        </a>
         <a href="/Assessments" className="quick-link">
           <FaFileAlt />
           <span>Assessments</span>
@@ -151,10 +151,10 @@ const Dashboard = () => {
           <FaBriefcase />
           <span>Placements</span>
         </a>
-        {/* <a href="/practice-assessments" className="quick-link">
+        <a href="/DailyPractice" className="quick-link">
           <FaClipboardCheck />
           <span>Daily Practice & Assessments</span>
-        </a> */}
+        </a>
         <a href="/Staff" className="quick-link">
           <FaUserTie />
           <span>Staff Recruitment</span>
@@ -168,18 +168,18 @@ const Dashboard = () => {
           <FaLaptop />
           <span>Assets</span>
         </a>
-        {/* <a href="/hrms" className="quick-link">
+        <a href="/hrms" className="quick-link">
           <FaUsers />
           <span>HRMS</span>
-        </a> */}
+        </a>
         <a href="/VendorContracts" className="quick-link">
           <FaPhone />
           <span>Vendor Contracts</span>
         </a>
-        {/* <a href="/reports" className="quick-link">
+        <a href="/reports" className="quick-link">
           <FaClipboardList />
           <span>Reports</span>
-        </a> */}
+        </a>
       </div>
     </div>
   );
