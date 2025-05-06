@@ -22,7 +22,7 @@ const Reports = () => {
 
   return (
     <div className="reports-container">
-      <h4 className="subheading">Reports Dashboard</h4>
+     <h1>Reports</h1>
 
       <div className="header-row">
         <h1 className="main-heading">

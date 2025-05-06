@@ -85,8 +85,8 @@ const Staff = () => {
       </div>
       <h2 style={{ marginTop: '0' }}>Job Openings</h2>
 
-      <div className="filter-bar">
-      <div className="filter-item">
+      <div className="filter-barstaff">
+      <div className="filter-itemstaff">
   <label>Job Type</label>
   <select>
     <option>All</option>
@@ -96,7 +96,7 @@ const Staff = () => {
   </select>
 </div>
 
-<div className="filter-item">
+<div className="filter-itemstaff">
   <label>Department</label>
   <select>
     <option>All</option>
@@ -108,7 +108,7 @@ const Staff = () => {
   </select>
 </div>
 
-        <div className="filter-item">
+        <div className="filter-itemstaff">
           <label>Job</label>
           <input type="text" placeholder="Search Job Openings" />
         </div>

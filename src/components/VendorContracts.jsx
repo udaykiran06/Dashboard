@@ -78,7 +78,32 @@ const VendorContracts = () => {
         <h1>Vendor Contracts Overview</h1>
         <button className="add-contract-button">Add Contract</button>
       </header>
+      <div className="filter-barvendor">
+        <div className="filter-itemvendor">
+          <label>Contract Type</label>
+          <select>
+            <option>All</option>
+            <option>Acv</option>
+            <option>TCV</option>
+            <option>Monthly</option>
+          </select>
+        </div>
 
+        <div className="filter-itemvendor">
+          <label>Status</label>
+          <select>
+            <option>All</option>
+            <option>Active</option>
+            <option>Expired</option>
+            <option>Pending</option>
+          </select>
+        </div>
+
+        <div className="filter-itemvendor">
+          <label>Vendor</label>
+          <input type="text" placeholder="Search contracts" />
+        </div>
+      </div>
       <div className="metrics5">
         <div className="metric5">
           <h3>Total Contracts</h3>
@@ -98,32 +123,7 @@ const VendorContracts = () => {
         </div>
       </div>
 
-      <div className="filter-bar">
-        <div className="filter-item">
-          <label>Contract Type</label>
-          <select>
-            <option>All</option>
-            <option>Acv</option>
-            <option>TCV</option>
-            <option>Monthly</option>
-          </select>
-        </div>
-
-        <div className="filter-item">
-          <label>Status</label>
-          <select>
-            <option>All</option>
-            <option>Active</option>
-            <option>Expired</option>
-            <option>Pending</option>
-          </select>
-        </div>
-
-        <div className="filter-item">
-          <label>Vendor</label>
-          <input type="text" placeholder="Search contracts" />
-        </div>
-      </div>
+      
       <div className="contracts-table-container">
       <h2>Contracts</h2>
       <table className="contracts-table">

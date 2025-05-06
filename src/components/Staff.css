@@ -20,25 +20,25 @@
     background-color: #3A5DFF;
   }
   
-  .filter-bar {
+  .filter-barstaff {
     display: flex;
     gap: 30px;
     align-items: flex-start;
     font-size: 20px;
   }
   
-  .filter-item {
+  .filter-itemstaff {
     display: flex;
     flex-direction: column;
   }
   
-  .filter-item label {
+  .filter-itemstaff label {
     margin-bottom: 5px;
     font-weight: 600;
   }
   
-  .filter-item select,
-  .filter-item input {
+  .filter-itemstaff select,
+  .filter-itemstaff input {
     padding: 8px 10px;
     border: 1px solid #ccc;
     border-radius: 4px;

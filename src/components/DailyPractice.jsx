@@ -58,8 +58,8 @@ const DailyPractice = () => {
       </div>
 
       <h2 className="dp-section-title">Job Openings</h2>
-      <div className="filters-bar">
-      <div className="filter-item">
+      <div className="filters-bardaily">
+      <div className="filter-itemdaily">
     <select defaultValue="">
       <option value="">Job Type</option>
       <option>Acv</option>
@@ -67,7 +67,7 @@ const DailyPractice = () => {
       <option>Monthly</option>
     </select>
   </div>
-  <div className="filter-item search-department">
+  <div className="filter-itemdaily search-department">
   <input type="text" placeholder="Department" />
   <span className="search-icon">🔍</span>
 </div>

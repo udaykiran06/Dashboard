@@ -65,9 +65,9 @@
   margin-bottom: 10px;
 }
 
-.filters-bar {
+.filters-bardaily {
   display: flex;
-  gap: 16px;
+  gap: 206px;
   align-items: flex-end;
   margin-bottom: 24px;
   padding: 12px 0;
@@ -75,7 +75,7 @@
   margin-top: -10px;
 }
 
-.filter-item select {
+.filter-itemdaily select {
   padding: 8px 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -86,30 +86,30 @@
   color: #333;
 }
 
-.filter-item-1,
-.filter-item-2,
-.filter-item-3 {
+.filter-itemdaily-1,
+.filter-itemdaily-2,
+.filter-itemdaily-3 {
   display: flex;
   flex-direction: column;
 }
 
-.filter-item-3 select {
+.filter-itemdaily-3 select {
   background-color: #f1f1f1;
   font-weight: 500;
 }
 
-.filters-bar label {
+.filters-bardaily label {
   font-size: 14px;
   color: #333;
   margin-bottom: 2px;
 }
 
-.filters-bar select {
+.filters-bardaily select {
   padding: 8px 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
   background-color: white;
-  min-width: 150px;
+  min-width: 290px;
   cursor: pointer;
 }
 
@@ -128,7 +128,7 @@
   border-radius: 8px;
   font-size: 14px;
   background-color: white;
-  width: 200px;
+  width: 500px;
 }
 
 .search-icon {
